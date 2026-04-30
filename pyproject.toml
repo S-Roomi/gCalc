@@ -1,0 +1,12 @@
+[project]
+name = "gcalc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.2",
+    "tabulate>=0.10.0",
+    "textual>=8.2.3",
+    "textual-dev>=1.8.0",
+]

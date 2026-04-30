@@ -1,0 +1,71 @@
+/* Apply the theme background to the whole screen */
+Screen {
+    background: $background;
+}
+
+/* Remove default DataTable background/border colors */
+DataTable {
+    height: 1fr;
+    background: $background;
+    color: $foreground;
+}
+
+EditCellModal {
+    align: center middle;
+}
+
+EditCellModal Label, EditCellModal Input {
+    width: 40;
+}
+
+/* Style the headers to match the background but perhaps use bold text */
+DataTable > .datatable--header {
+    color: $accent;
+    text-style: bold;
+}
+
+/* Update your GradeDisplay to match the uniform vibe */
+GradeDisplay {
+    dock: right;
+    width: 40;
+    /* Use a theme variable for the border or remove it */
+ 
+    background: $background;
+    content-align: center middle;
+}
+
+#status_bar {
+    height: 3;
+    background: $background;
+    /* Remove any potential borders or padding that create gaps */
+    padding: 0;
+    margin: 0;
+}
+
+/* Target all widgets inside the status bar */
+#status_bar > Widget {
+    background: $background;
+    border: none;
+}
+
+#status {
+    /* Existing styles */
+    dock: bottom;
+    color: $foreground;
+    background: $background;
+}
+
+GradeDisplay {
+    dock: right;
+    width: 40;
+    border: none; 
+    background: $background;
+    color: $foreground;
+    content-align: center middle;
+
+}
+
+Footer {
+    background: $background;
+    color: $foreground;
+}
