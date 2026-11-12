@@ -1,7 +1,7 @@
 [project]
 name = "gcalc"
 version = "0.1.0"
-description = "A terminal-based grade calculator built with Textual."
+description = "A terminal-based grade calculator."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

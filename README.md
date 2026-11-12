@@ -1,6 +1,6 @@
 # gCalc
 
-A terminal-based grade calculator built with [Textual](https://textual.textualize.io/). Track scores in a spreadsheet-style table, organize them into categories, and see your overall grade update as you edit.
+A terminal-based grade calculator. Track scores in a spreadsheet-style table, organize them into categories, and see your overall grade update as you edit.
 
 ## Features
 
